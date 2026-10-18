@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0">
+  <meta name="description" content="Velora Flowers çiçek koleksiyonunu keşfedin.">
+  <title>Velora Flowers — Çiçekler</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body data-page="home">
+  <div id="site-header"></div>
+  <main class="page">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">VELORA FLOWERS · ÇİÇEK ATÖLYESİ</span>
+        <h1>Gününüzü güzelleştiren<br><em>çiçekler.</em></h1>
+        <p>Özenle hazırlanan çiçeklerin arasından size en uygun olanı seçin.</p>
+        <a class="button button-dark" href="categories.html">Koleksiyonu keşfet <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-art" aria-label="Çiçek koleksiyonu illüstrasyonu">
+        <div class="hero-sun"></div><div class="hero-vase">✿<br>❀<br>✿</div>
+        <span class="hero-caption">Her bukette biraz<br>güzellik var.</span>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section-heading">
+        <div><span class="eyebrow">ATÖLYEDEN SEÇKİLER</span><h2>Çiçekler</h2></div>
+        <a class="text-link" href="categories.html">Tümünü gör <span aria-hidden="true">→</span></a>
+      </div>
+      <div id="notice" class="notice" hidden></div>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden></div>
+    </section>
+  </main>
+  <div id="bottom-nav"></div>
+</body>
+</html>

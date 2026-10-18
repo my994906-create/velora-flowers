@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0"><title>Çiçek ara — Velora Flowers</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body data-page="search">
+  <div id="site-header"></div>
+  <main class="page">
+    <section class="page-intro compact-intro"><span class="eyebrow">VELORA KOLEKSİYONU</span><h1>Ne aramıştınız?</h1><p>Çiçekler, buketler ve hediye seçeneklerinde arayın.</p></section>
+    <section class="section collection-section">
+      <form id="catalog-search-form" class="catalog-search-form" role="search">
+        <span aria-hidden="true">⌕</span><input id="catalog-search" name="q" type="search" placeholder="Örn. gül, buket, orkide" aria-label="Çiçeklerde ara" autocomplete="off">
+        <button class="button button-dark" type="submit">Ara</button>
+      </form>
+      <div id="notice" class="notice" hidden></div>
+      <div id="product-grid" class="product-grid" aria-live="polite"></div>
+      <div id="empty-state" class="empty-state" hidden></div>
+    </section>
+  </main>
+  <div id="bottom-nav"></div>
+</body>
+</html>

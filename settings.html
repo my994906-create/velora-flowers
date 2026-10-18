@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0"><title>Ayarlar — Velora Flowers</title>
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body data-page="settings">
+  <div id="site-header"></div>
+  <main class="page narrow-page">
+    <section class="page-intro compact-intro"><span class="eyebrow">UYGULAMANIZ</span><h1>Ayarlar</h1><p>Velora deneyiminizi kendinize göre düzenleyin.</p></section>
+    <section class="settings-section">
+      <h2>Görünüm</h2>
+      <label class="settings-row"><span><strong>Koyu tema</strong><small>Uygulamanın renk görünümünü değiştirin.</small></span><input id="theme-toggle" class="switch-input" type="checkbox" role="switch" aria-label="Koyu tema"></label>
+    </section>
+    <section class="settings-section">
+      <h2>Bildirimler</h2>
+      <label class="settings-row"><span><strong>Tarayıcı bildirimleri</strong><small>Bildirim izni bu cihazda saklanır.</small></span><input id="notification-toggle" class="switch-input" type="checkbox" role="switch" aria-label="Bildirimleri etkinleştir"></label>
+    </section>
+    <section class="settings-section">
+      <h2>Hesap</h2>
+      <div id="settings-account"><a class="settings-row" href="account.html"><span><strong>Hesap ve siparişler</strong><small>Hesabınızı yönetin.</small></span><span>→</span></a></div>
+    </section>
+    <div id="notice" class="notice" hidden></div>
+  </main>
+  <div id="bottom-nav"></div>
+</body>
+</html>
